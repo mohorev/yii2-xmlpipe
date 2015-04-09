@@ -1,0 +1,28 @@
+{
+    "name": "mongosoft/yii2-xmlpipe",
+    "description": "Sphinx XmlPipe Extension for Yii 2",
+    "keywords": ["yii2", "extension", "sphinx", "xmlpipe", "xml-pipe", "xmlpipe2"],
+    "homepage": "https://github.com/mongosoft/yii2-xmlpipe",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/mongosoft/yii2-xmlpipe/issues?state=open",
+        "source": "https://github.com/mongosoft/yii2-xmlpipe"
+    },
+    "authors": [
+        {
+            "name": "Alexander Mohorev",
+            "email": "dev.mohorev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-libxml": "*",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mongosoft\\mongosoft\\": ""
+        }
+    }
+}
