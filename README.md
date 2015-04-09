@@ -65,7 +65,7 @@ class XmlPipeDocument extends BaseXmlPipe
     public function addDocuments()
     {
         $query = Items::find()
-            ->select(['type', 'name', 'description'])
+            ->select(['type', 'full_name', 'description'])
             ->asArray();
 
         foreach ($query->each() as $item) {
