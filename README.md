@@ -98,7 +98,7 @@ class TestController extends Controller
         return [
             'xmlpipe' => [
                 'class' => 'mongosoft\xmlpipe\Action',
-                'modelClass' => 'app\models\XmlPipeDocument',
+                'document' => 'app\models\XmlPipeDocument',
             ],
         ];
     }
