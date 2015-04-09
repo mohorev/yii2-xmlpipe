@@ -56,7 +56,6 @@ class XmlPipeDocument extends BaseXmlPipe
             ['name' => 'type', 'type' => 'int', 'bits' => 16],
             ['name' => 'name', 'type' => 'string'],
             ['name' => 'description', 'type' => 'string'],
-            ['name' => 'created', 'type' => 'int'],
         ];
     }
 
