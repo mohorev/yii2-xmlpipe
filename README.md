@@ -3,6 +3,9 @@ Sphinx XmlPipe Extension for Yii 2
 
 This extension provides an easy way to create xmlpipe2 data source for the Sphinx search engine.
 
+[![Latest Stable Version](https://poser.pugx.org/mongosoft/yii2-xmlpipe/v/stable.png)](https://packagist.org/packages/mongosoft/yii2-xmlpipe)
+[![Total Downloads](https://poser.pugx.org/mongosoft/yii2-xmlpipe/downloads.png)](https://packagist.org/packages/mongosoft/yii2-xmlpipe)
+
 Installation
 ------------
 
